@@ -2,18 +2,6 @@ django-pushy
 ============
 Your push notifications handled at scale.
 
-.. image:: https://travis-ci.org/rakanalh/django-pushy.svg?branch=master
-    :target: https://travis-ci.org/rakanalh/django-pushy
-.. image:: https://pypip.in/d/django-pushy/badge.png
-    :target: https://crate.io/packages/django-pushy/
-    :alt: Number of PyPI downloads
-.. image:: https://coveralls.io/repos/rakanalh/django-pushy/badge.png?branch=master
-  :target: https://coveralls.io/r/rakanalh/django-pushy?branch=master
-.. image:: https://landscape.io/github/rakanalh/django-pushy/master/landscape.svg?style=flat
-   :target: https://landscape.io/github/rakanalh/django-pushy/master
-   :alt: Code Health
-
-
 What does it do?
 ----------------
 Python / Django app that provides push notifications functionality with celery. The main purpose of this app is to help you send push notifications to your users at scale. If you have lots of registered device keys, django-pushy will split your keys into smaller groups which run in parallel making the process of sending notifications faster.
