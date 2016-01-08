@@ -1,4 +1,0 @@
-Django
-django-celery
-python-gcm
-apns

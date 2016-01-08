@@ -16,7 +16,7 @@ setup(
     include_package_data=True,
 
     # Details
-    url='https://github.com/rakanalh/django-pushy',
+        url='https://github.com/rakanalh/pushy',
 
     license='LICENSE.txt',
     description='Handle push notifications at scale.',
@@ -26,7 +26,7 @@ setup(
     install_requires=[
         'python-gcm',
         'django',
-        'django-celery',
+        'celery',
         'apns'
     ],
 )

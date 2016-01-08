@@ -1,21 +1,20 @@
 import random
-import apns
 from threading import Event
 
+import apns
+from django.conf import settings
 from gcm import GCM
 from gcm.gcm import (
     GCMNotRegisteredException,
     GCMException
 )
 
-from django.conf import settings
-
-from models import Device
 from exceptions import (
     PushException,
     PushGCMApiKeyException,
     PushAPNsCertificateException
 )
+from models import Device
 
 dispatchers_cache = {}
 
